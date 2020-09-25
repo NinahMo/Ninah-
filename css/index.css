@@ -152,3 +152,9 @@ label>input:checked ~ .pizza-box{
 .container{
     background: transparent;
 }
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+} 
