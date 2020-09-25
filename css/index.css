@@ -1,0 +1,154 @@
+body{
+    background-image: url(./images/port1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Niconne', cursive;
+
+}
+.jumbotron{
+    height: 150px;
+    background-color: peru;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Frijole', cursive;
+
+}
+
+.btn{
+    float: right;
+}
+.one{
+    width: 100%;
+    height: 150px;
+}
+.scroll-y{
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.pizza-box{
+    width: 200px !important;
+    height: 200px !important;
+    margin-right: 24px;
+    overflow: hidden;
+}
+label>input{
+    width: 0px;
+    height: 0px;
+}
+.extras{
+    justify-content: space-between;
+}
+label>input:checked ~ .card{
+    background-color: black !important
+}
+
+label>input:checked ~ .pizza-box{
+    zoom: 1.1;
+    color: aliceblue;
+    background-color: black !important;
+
+}
+
+.button {
+    color: aliceblue;
+    background-color: #000000;
+    border-color: #000000;
+    margin: 0 auto;
+    width: 160px;
+  }
+
+.pizza-box>h4, .pizza-box>p{
+    padding-left: 8px;
+    padding-right: 8px
+}
+.cart-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.cart-container{
+    height: 100vh;
+    width: 360px;
+    background-color: aliceblue;
+    float: right;
+    overflow-y: scroll;
+    padding-left: 16px;
+    padding-right: 16px;   
+}
+#deliver{ 
+    color: white;
+    background-color: black;
+    border-color: black;
+    margin: 0 auto;
+    width: 160px
+
+}
+
+#orders>li>img{
+    height: 104px;
+    width: 104px
+}
+#view{
+    color: aliceblue;
+    background-color: black;
+    border-color: black;
+    margin: 0 auto;
+    width: 200px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartSum{
+    border-radius: 12px;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+}
+.row{
+    justify-content: space-between;
+    font-weight: 500 !important;
+    border-top: 2px solid black;
+}  
+.me{
+    color: rgb(91, 91, 163);
+    font-weight: bolder;
+    font-size: larger;
+}
+.me2{
+    color: rgb(91, 91, 163);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+.me3{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+.ninah{
+    background-color: rgb(91, 91, 163);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.showcase {
+    padding-top: 110px;
+}
+.container{
+    background: transparent;
+}
