@@ -1,11 +1,13 @@
 body{
-    background-image: url(./images/port1.jpg);
+    background-image: url(./images/port.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Niconne', cursive;
 
 }
+
+
 .jumbotron{
     height: 150px;
     background-color: peru;
@@ -64,7 +66,7 @@ label>input:checked ~ .pizza-box{
 
 .pizza-box>h4, .pizza-box>p{
     padding-left: 8px;
-    padding-right: 8px
+    padding-right: 8px;
 }
 .cart-wrapper {
     position: fixed;
@@ -152,12 +154,11 @@ label>input:checked ~ .pizza-box{
 .container{
     background: transparent;
 }
-@media screen and (max-width:450px) {
-    .form-cont input {
-        width: 100%;
-        margin-top: 10px;
-    }
-} 
+
+.hey{
+    color: rgb(91, 91, 163);
+}
+
 @media screen and (max-width:450px) {
     .form-cont input {
         width: 100%;
@@ -205,3 +206,4 @@ label>input:checked ~ .pizza-box{
     .container-xl, .container-lg, .container-md, .container-sm, .container {
       max-width: 1140px;
     }
+  }
